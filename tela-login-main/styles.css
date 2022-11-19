@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width : 1600px) {
+    .wrapper{
+        width: 50%;
+        height: 50%;
+    }
+}
+
+@media only screen and (max-width : 1600px) {
+    .wrapper{
+        width: 50em;
+        height: 25em;
+    }
+
+    .login{
+        width: 30em;
+    }
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FAEBEB;
+    height: 100vh;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 20px 0 0 20px;
+    /* width: 60%; */
+    height: 100%;
+    margin: 10px 0 0 90px;
+    text-align: left;
+}
+
+.login h1{
+    margin-bottom: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.login p:nth-child(2){
+    width: 20em;
+    color: #8E919D;
+}
+
+.login input{
+    width: 70%;
+    padding: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.527);
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.login div:nth-child(4){
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.login div:nth-child(4) a{
+    color: #308CA2;
+}
+
+.login div:nth-child(4) button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 8em;
+    border-radius: 7%;
+    outline: none;
+    border: none;
+    background: #308CA2;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.login div:nth-child(4) p{
+    margin-left: 13px;
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+
+.login p:nth-last-child(3){
+    font-size: 0.9em;
+    text-align: center;
+    width: 22em;
+    color: #8E919D;
+}
+
+.login div:nth-child(6){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 70%;
+    margin-top: 10px;
+}
+
+.login .facebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 5px 20px 5px 20px;
+    border: 1px solid rgba(165, 165, 165, 0.466);
+    background: #fff;
+}
+
+.login .google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 5px 20px 5px 12px;
+    border: 1px solid rgba(165, 165, 165, 0.466);
+    background: #fff;
+}
+
+.login .facebook img{ 
+    width: 30px;
+    margin-right: 8px;
+}
+
+.login .google img{
+    width: 40px;
+    margin-right: 3px;
+}
+
+.login .sign-up{
+    margin-top: 20px; 
+    text-align: center;
+    width: 75%;
+    color: #8E919D;
+}
+
+.login .sign-up a{
+    color: #308CA2;
+}
+
+.wrapper img{
+    border-radius: 0 20px 20px 0;
+    width: 35%;
+    height: 100%;
+}
